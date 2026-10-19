@@ -2,7 +2,7 @@
 name: found-vs-deliverable
 description: "Gate a found email behind verify before send. Buckets: deliverable, catch-all, unknown, invalid. Never mark catch-all as valid; found is not sendable until verify = deliverable. Use when verifying emails, cleaning a send list, scoring catch-all or unknown rows, or deciding whether a found address is deliverable."
 argument-hint: "[email or row | score]"
-allowed-tools: Read Write Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score.py:*)
+allowed-tools: Read Write(./gtm/**) Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score.py:*)
 models: ""
 ---
 
