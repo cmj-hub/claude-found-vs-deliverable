@@ -1,0 +1,37 @@
+{
+  "name": "@jmc-gtm/claude-found-vs-deliverable",
+  "version": "0.1.0",
+  "description": "Gate a found email behind verify before send. Buckets: deliverable, catch-all, unknown, invalid. Never mark catch-all as valid. Deterministic, stdlib-only Python scorer. No network, no send, no paid API.",
+  "license": "MIT",
+  "author": "JMC Go-to-Market Systems",
+  "homepage": "https://github.com/cmj-hub/claude-found-vs-deliverable#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmj-hub/claude-found-vs-deliverable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmj-hub/claude-found-vs-deliverable/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "claude-plugin",
+    "email-verification",
+    "deliverability",
+    "catch-all",
+    "b2b",
+    "gtm",
+    "list-hygiene"
+  ],
+  "files": [
+    ".claude-plugin",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
